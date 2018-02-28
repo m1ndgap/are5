@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   max-width: 1440px;
   margin: auto;
 }
@@ -79,7 +79,7 @@ nav p a {
   margin-top: 111px;
   color: #ffffff;
   font-size: 48px;
-  max-width: 789px;
+  max-width: 820px;
   text-align: center;
   line-height: 59px;
   letter-spacing: 1px;
@@ -121,6 +121,7 @@ nav p a {
 }
 
 .index_2_numbers .i2_wrapper {
+  margin-top: 65px;
   padding: 0px 150px 0px 150px;
   display: flex;
   flex-direction: row;
