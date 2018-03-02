@@ -31,12 +31,12 @@
 }
 
 .index_2_numbers {
-  height: 796px;
+  height: 623px;
 }
 
 .index_2_numbers h1 {
   font-size: 36px;
-  font-weight: lighter;
+  font-family: 'Open Sans SemiBold';
   margin-top: 130px;
   text-align: center;
 }
@@ -44,18 +44,64 @@
 .index_2_numbers span {
   font-size: 80px;
   color: #c02482;
+  padding-left: 100px;
+  background-repeat: no-repeat;
+  background-position: 11px 16px;
+  display: inline-block;
+}
+
+.index_2_numbers .cert {
+  background-image: url("../assets/images/certificate_icon.png");
+}
+
+.index_2_numbers .graduation {
+  margin-top: 110px;
+  background-image: url("../assets/images/graduation_icon.png");
+}
+
+.index_2_numbers .presentation {
+  background-image: url("../assets/images/presentation_icon.png");
+}
+
+.index_2_numbers .portrait {
+  margin-top: 110px;
+  background-image: url("../assets/images/portrait_icon.png");
+}
+
+.index_2_numbers .column_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.index_2_numbers .column_2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .index_2_numbers p {
   max-width: 240px;
   font-size: 24px;
   text-align: center;
+  margin-left: 30px;
+  margin-top: 26px;
 }
 
 .index_2_numbers .i2_wrapper {
   margin-top: 65px;
-  padding: 0px 150px 0px 150px;
+  padding: 0px 198px 0px 273px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.index_3_experts {
+  border: 1px solid red;
+  height: 950px;
+}
+
+.index_3_experts h1 {
+  font-size: 36px;
+  font-family: 'Open Sans SemiBold';
+  margin-top: 117px;
+  text-align: center;
 }

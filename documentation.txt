@@ -2,7 +2,8 @@ index:
 
 -menu:
 
-I used absolute positioning for left and rightmost elements to have better control when I'm working on responsive. Should they be done as the part of menu flex?
+I used absolute positioning for left and rightmost elements to have better control when I'm working on responsive.
+Should they be done as the part of menu flex?
 
 -index_1_intro
 
@@ -11,4 +12,5 @@ basic flex
 
 -index_2_numbers
 
-I used two flexboxes to position four elements in two columns, I wonder if there is a better way to do this
+I used two flexboxes inside a flexbox to position four elements in two columns, I wonder if there is a better way to do this
+because adjusting elements seemed tricky and I wasnt able to achieve perfect result
