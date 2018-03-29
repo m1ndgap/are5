@@ -1,6 +1,6 @@
 global:
 
-should I put styles into the page folder?
+should I put styles into the page folder or the global folder? BEM guidelines say put it in module folders where should i put global styles then?
 
 
 index:

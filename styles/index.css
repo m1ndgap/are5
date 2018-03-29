@@ -105,3 +105,13 @@
   margin-top: 117px;
   text-align: center;
 }
+
+.i3_experts_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.i3_experts_wrapper > div {
+  display: flex;
+  flex-direction: column;
+}
