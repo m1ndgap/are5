@@ -2,6 +2,8 @@
 
   -should I put styles into the page folder or the global folder? BEM guidelines say put it in module folders where should I put global styles then?
 
+  -.button max width works, but regular width does not?
+
 
 index:
 
@@ -24,3 +26,5 @@ basic flex
 ---index_3_experts
 
   -Is it okay to use numbered font weight? like I do for h2 and its child span?
+
+  -Is it acceptable to use <br> to achieve the same result with text alignment within <p> here?
