@@ -7,23 +7,19 @@ img
   border-radius: 50%
 
 .play_background
-  visibility: hidden
+  opacity: 0
   position: absolute
-  background: #ddd
   height: 233px
   width: 233px
   background-color: rgba(192, 36, 130, 0.6)
   border-radius: 50%
-  display: -ms-flex
-  display: -webkit-flex
   display: flex
   flex-direction: column
   text-align: center
+  cursor: pointer
   &:hover
-    .play_background
-      visibility: visible
-
-
+    opacity: 1
+    cursor: pointer
   p
     display: block
     margin: 0px auto 0px auto

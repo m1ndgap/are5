@@ -9,22 +9,21 @@ img {
 }
 
 .play_background {
-  visibility: hidden;
+  opacity: 0;
   position: absolute;
-  background: #ddd;
   height: 233px;
   width: 233px;
   background-color: rgba(192, 36, 130, 0.6);
   border-radius: 50%;
-  display: -ms-flex;
-  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   text-align: center;
+  cursor: pointer;
 }
 
-.play_background:hover .play_background {
-  visibility: visible;
+.play_background:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .play_background p {
