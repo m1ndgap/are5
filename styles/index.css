@@ -117,4 +117,23 @@
 .i3_experts_wrapper > div {
   display: flex;
   flex-direction: column;
+  max-width: 250px;
+  margin: 75px 120px 90px 0px;
+  text-align: center;
+}
+
+.i3_experts_wrapper > div:first-child {
+  margin-left: 120px;
+}
+
+.i3_experts_wrapper h2 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 550;
+}
+
+.i3_experts_wrapper h2 span {
+  font-size: 24px;
+  display: block;
+  font-weight: 600;
 }
