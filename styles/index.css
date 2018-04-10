@@ -333,3 +333,21 @@
 .index_5_student_feedback .i5-slider .active {
   background-color: #00acbc;
 }
+
+.index_6_our_programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 135px;
+}
+
+.index_6_our_programs h1 {
+  letter-spacing: -0.7px;
+  margin-top: 137px;
+  font-size: 36px;
+  font-family: 'Open Sans SemiBold';
+}
+
+.index_7_contact_form {
+  background-image: url("../assets/images/i7-background.png");
+}
