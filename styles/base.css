@@ -24,6 +24,8 @@
 }
 
 .button:hover {
+  position: relative;
+  top: 1px;
   text-decoration: none;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=0, Color=#000000)";
   /*IE 8*/

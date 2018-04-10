@@ -5,6 +5,8 @@
   -.button max width works, but regular width does not?
 
 
+
+
 index:
 
 ---menu:
@@ -28,3 +30,8 @@ basic flex
   -Is it okay to use numbered font weight? like I do for h2 and its child span?
 
   -Is it acceptable to use <br> to achieve the same result with text alignment within <p> here?
+
+
+---index_4_icons
+
+  -instead of doing icons as a span background I should try doing it as a pseudoelement
