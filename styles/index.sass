@@ -271,13 +271,27 @@
       max-width: 500px
       display: flex
       flex-direction: column
+      flex-wrap: wrap
       &:nth-child(2)
         input
           height: 50px
           border-radius: 35px
           width: 400px
-        input[name='*name']
+          border: none
+          margin-bottom: 20px
+        input[name='name']
           width: 190px
+        input[name='lastname']
+          width: 190px
+        input[type='submit']
+          height: 70px
+          margin: 0px
+          margin-top: 40px
+      select
+        width: 400px
+        border-radius: 35px
+        border: none
+        height: 50px
 
 
 

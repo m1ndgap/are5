@@ -367,16 +367,36 @@
   max-width: 500px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .index_7_contact_form .i7_wrapper div:nth-child(2) input {
   height: 50px;
   border-radius: 35px;
   width: 400px;
+  border: none;
+  margin-bottom: 20px;
 }
 
-.index_7_contact_form .i7_wrapper div:nth-child(2) input[name='*name'] {
+.index_7_contact_form .i7_wrapper div:nth-child(2) input[name='name'] {
   width: 190px;
+}
+
+.index_7_contact_form .i7_wrapper div:nth-child(2) input[name='lastname'] {
+  width: 190px;
+}
+
+.index_7_contact_form .i7_wrapper div:nth-child(2) input[type='submit'] {
+  height: 70px;
+  margin: 0px;
+  margin-top: 40px;
+}
+
+.index_7_contact_form .i7_wrapper div select {
+  width: 400px;
+  border-radius: 35px;
+  border: none;
+  height: 50px;
 }
 
 .index_7_contact_form h1 {
