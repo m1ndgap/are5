@@ -348,6 +348,76 @@
   font-family: 'Open Sans SemiBold';
 }
 
+.index_6_our_programs .i6_block {
+  display: flex;
+}
+
 .index_7_contact_form {
+  display: flex;
   background-image: url("../assets/images/i7-background.png");
+}
+
+.index_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index_footer img {
+  margin-top: 115px;
+}
+
+.index_footer p {
+  margin: 10px 50px 10px 50px;
+}
+
+.index_footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0px 100px 0px 100px;
+}
+
+.index_footer nav ul li {
+  margin: 50px 20px 50px 20px;
+}
+
+.index_footer .social-networks {
+  padding: 0px;
+  max-width: 250px;
+  margin: 30px 100px 30px 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index_footer .social-networks li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.index_footer .social-networks .social-vk {
+  background-image: url("../assets/images/social-vk.png");
+}
+
+.index_footer .social-networks .social-fb {
+  background-image: url("../assets/images/social-fb.png");
+}
+
+.index_footer .social-networks .social-twi {
+  background-image: url("../assets/images/social-twi.png");
+}
+
+.index_footer .social-networks .social-inst {
+  background-image: url("../assets/images/social-inst.png");
+}
+
+.index_footer .copyright {
+  color: #dfdfdf;
+  margin-bottom: 40px;
 }
