@@ -261,8 +261,35 @@
 
 
 .index_7_contact_form
+  padding: 105px 200px 105px 200px
   display: flex
+  flex-direction: row
   background-image: url('../assets/images/i7-background.png')
+  .i7_wrapper
+    display: flex
+    div
+      max-width: 500px
+      display: flex
+      flex-direction: column
+      &:nth-child(2)
+        input
+          height: 50px
+          border-radius: 35px
+          width: 400px
+        input[name='*name']
+          width: 190px
+
+
+
+
+  h1
+    font-family: 'Open Sans SemiBold'
+    font-size: 48px
+    color: $white
+  p
+    font-size: 24px
+    color: $white
+
 
 
 .index_footer

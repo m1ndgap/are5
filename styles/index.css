@@ -353,8 +353,41 @@
 }
 
 .index_7_contact_form {
+  padding: 105px 200px 105px 200px;
   display: flex;
+  flex-direction: row;
   background-image: url("../assets/images/i7-background.png");
+}
+
+.index_7_contact_form .i7_wrapper {
+  display: flex;
+}
+
+.index_7_contact_form .i7_wrapper div {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.index_7_contact_form .i7_wrapper div:nth-child(2) input {
+  height: 50px;
+  border-radius: 35px;
+  width: 400px;
+}
+
+.index_7_contact_form .i7_wrapper div:nth-child(2) input[name='*name'] {
+  width: 190px;
+}
+
+.index_7_contact_form h1 {
+  font-family: 'Open Sans SemiBold';
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.index_7_contact_form p {
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .index_footer {
