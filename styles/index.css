@@ -399,31 +399,42 @@
 }
 
 .index_7_contact_form .i7_wrapper div:nth-child(2) input {
+  outline: none;
+  padding-left: 33px;
+  color: #4a4a4a;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   display: inline-block;
   height: 50px;
   border-radius: 35px;
-  width: 400px;
+  width: 377px;
   border: none;
   margin-bottom: 20px;
 }
 
 .index_7_contact_form .i7_wrapper div:nth-child(2) input[name='name'] {
-  width: 190px;
+  width: 157px;
 }
 
 .index_7_contact_form .i7_wrapper div:nth-child(2) input[name='lastname'] {
-  width: 190px;
+  width: 157px;
 }
 
 .index_7_contact_form .i7_wrapper div:nth-child(2) input[type='submit'] {
+  width: 400px;
   height: 70px;
   margin: 0px;
   margin-top: 40px;
+  background-color: #00acbc;
+  color: #ffffff;
 }
 
 .index_7_contact_form .i7_wrapper div select {
+  outline: none;
+  padding-left: 33px;
+  color: #4a4a4a;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
   width: 400px;
   border-radius: 35px;
   border: none;
