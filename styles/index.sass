@@ -257,17 +257,51 @@
     font-size: 36px
     font-family: 'Open Sans SemiBold'
   .i6_block
+    margin-top: 60px
     display: flex
     flex-direction: row
-    
-    > div
+    div
       &:nth-child(1)
-        margin-left: 203px
+        line-height: 31px
         font-family: 'Open Sans', sans-serif
-        font-size: 18px
+        font-size: 24px
         border-bottom: 5px solid $darkpink
         flex-grow: 1
         align-self: flex-start
+    ul
+      font-size: 18px
+      flex-grow: 3
+      align-self: flex-end
+      li
+        list-style: none
+        span
+          display: inline-block
+          padding-left: 35px
+          background-image: url('../assets/images/book_icon.png')
+          background-repeat: no-repeat
+          background-position: 0px
+          text-decoration: underline
+          margin-top: 5px
+          a
+            display: inline-block
+            color: $darkpink
+            .new
+              position: relative  
+              &:after
+                display: inline-block
+                content: "Новая программа"
+                position: absolute
+                width: 150px
+                height: 20px
+        p
+          margin-top: 5px
+          margin-left: 35px
+
+
+
+
+
+
 
 
 
