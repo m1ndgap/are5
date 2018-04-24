@@ -263,17 +263,18 @@
     justify-content: space-between
     div
       &:nth-child(1)
+        padding-bottom: 15px
         line-height: 31px
         font-family: 'Open Sans', sans-serif
         font-size: 24px
         border-bottom: 5px solid $darkpink
-        flex-grow: 1
+        width: auto
         align-self: flex-start
     ul
       font-size: 18px
       margin-top: 0px
       margin-left: auto
-      width: 60%
+      width: 65%
       li
         list-style: none
         span
@@ -287,8 +288,10 @@
           &:nth-child(1)
             margin-top: 0px
           a
+            margin-top: 5px
             display: inline-block
             color: $darkpink
+            text-decoration: underline
           .new
             position: relative
             &:after

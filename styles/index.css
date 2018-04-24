@@ -357,11 +357,12 @@
 }
 
 .index_6_our_programs .i6_block div:nth-child(1) {
+  padding-bottom: 15px;
   line-height: 31px;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   border-bottom: 5px solid #c02482;
-  flex-grow: 1;
+  width: auto;
   align-self: flex-start;
 }
 
@@ -369,7 +370,7 @@
   font-size: 18px;
   margin-top: 0px;
   margin-left: auto;
-  width: 60%;
+  width: 65%;
 }
 
 .index_6_our_programs .i6_block ul li {
@@ -391,8 +392,10 @@
 }
 
 .index_6_our_programs .i6_block ul li span a {
+  margin-top: 5px;
   display: inline-block;
   color: #c02482;
+  text-decoration: underline;
 }
 
 .index_6_our_programs .i6_block ul li span .new {
